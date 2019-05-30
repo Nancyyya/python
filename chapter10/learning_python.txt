@@ -1,0 +1,4 @@
+In python you can process list
+In python you can process dict
+In python you can define a class
+In python you can define a function

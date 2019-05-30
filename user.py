@@ -43,3 +43,6 @@ class Admin(User):
         """初始化"""
         super().__init__(first_name,last_name,**usr_info) ### **user_info???
         self.privileges=Privileges()
+def city_country(city,country):
+    cstr = city.title() + ',' + country.title()
+    return cstr
